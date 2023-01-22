@@ -4,3 +4,14 @@
 .lista {
 	font-size: 13px;
 }
+
+@media screen and (max-width: 1200px){
+	.carousel-item img{
+		height: 400px;
+	}
+
+	.carousel-item.active img{
+		height: 400px;
+	}
+}
+
